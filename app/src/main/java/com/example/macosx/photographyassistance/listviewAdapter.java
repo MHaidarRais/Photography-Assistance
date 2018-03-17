@@ -53,7 +53,7 @@ public class listviewAdapter extends BaseAdapter {
         //set nilai ke widget
         tvNamaTempat.setText(data_nama_tempat[i]);
         ivGambarTempat.setImageResource(data_gambar_tempat[i]);
-        tvIsiArtikel.setText(data_isi_artikel[i]);
+//        tvIsiArtikel.setText(data_isi_artikel[i]);
 
         return view;
     }
